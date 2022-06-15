@@ -1,4 +1,4 @@
-# Unit Testing with Chai
+# Unit Testing with Jest
 
 This repository contains different coding katas.
 
@@ -6,9 +6,23 @@ The first part of coding katas focuses on implementation. Each kata already has 
 
 The second part of coding katas focusses on implementation and writing your own unit tests.
 
+## Jest
+
+Run the npm script `test:coding` to execute all tests for the katas "coding".
+
+Run the npm script `test:coding-and-unit-tests` to execute all tests for the katas "coding and unit testing".
+
+You can append the `-t` (testNamePattern) parameter to execute only a specific test. For example execute `npm run test:coding -- -t "randomLottoTicket"` to only run the tests of the random lotto ticket kata. The passed value must match name used in the `describe` function.
+
+You can also add the `--watch` parameter to constantly watch and execute jest - this will same you some time tho, i.e. `npm run test:coding -- --watch`
+
+You need to add a leading `--` to pass arguments to jest, i.e. `npm run test:coding -- --watch`.
+
+If you want to pass the `-t` and `--watch` parameters to jest it is sufficient to only pass `--` once, i.e. `npm run test:coding -- --watch -t "randomLottoTicket"`.
+
 ## Coding Katas
 
-Solve these coding katas. Each kata has its own code and test file, that are included in a separate HTML file.
+Solve these coding katas. Each kata has its own code and test file.
 
 - [Lotto](#Lotto)
 - [Double Characters](#Double-Characters)
