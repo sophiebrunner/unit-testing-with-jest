@@ -4,7 +4,7 @@ describe("analyizePassword", function () {
   it("should return detailed info about password", function () {
     const result = analyzePassword("a");
     expect(result.length).toEqual(1);
-    expect(result.hasNumbers).toEequal(false);
+    expect(result.hasNumbers).toEqual(false);
     expect(result.hasCharacters).toEqual(true);
   });
 
