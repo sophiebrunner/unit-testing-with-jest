@@ -33,7 +33,7 @@ Solve these coding katas. Each kata has its own code and test file.
 
 Implement the `randomLottoTicket()` function that will return an array of 6 random numbers. The numbers should be between 1 and 49 (1 and 49 are included in the range). Duplicate numbers are not allowed. Calling the function twice should not return the same numbers.
 
-[Files for this kata](/coding/lotto/)
+[Files for this kata](/coding-only/lotto/)
 
 ### Double Characters
 
@@ -50,7 +50,7 @@ const result3 = doubleCharacters("Hallo Welt");
 // "HHaalllloo  WWeelltt"
 ```
 
-[Files for this kata](/coding/double-characters/)
+[Files for this kata](/coding-only/double-characters/)
 
 ### Analyze Password
 
@@ -67,7 +67,7 @@ const result3 = analyzePassword("1234");
 // { length: 4, hasNumbers: true, hasCharacters: false }
 ```
 
-[Files for this kata](/coding/analyze-passwords/)
+[Files for this kata](/coding-only/analyze-passwords/)
 
 ### Person Class
 
@@ -94,7 +94,7 @@ nico.addHobby("Tennis");
 console.log(nico.hobbies.length); // 1
 ```
 
-[Files for this kata](/coding/person/)
+[Files for this kata](/coding-only/person/)
 
 ## Coding and Unit Testing
 

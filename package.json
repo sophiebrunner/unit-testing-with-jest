@@ -9,7 +9,7 @@
     "jest": "^28.1.1"
   },
   "scripts": {
-    "test:coding": "jest --testPathPattern=coding",
+    "test:coding": "jest --testPathPattern=coding-only",
     "test:coding-and-unit-tests": "jest --testPathPattern=coding-and-unit-tests",
     "test": "jest",
     "test:watch": "jest --watch"
