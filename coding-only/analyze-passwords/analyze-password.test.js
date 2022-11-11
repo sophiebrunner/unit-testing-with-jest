@@ -1,6 +1,6 @@
 import { analyzePassword } from "./analyze-password";
 
-describe("analyizePassword", function () {
+describe("analyzePassword", function () {
   it("should return detailed info about password", function () {
     const result = analyzePassword("a");
     expect(result.length).toEqual(1);
