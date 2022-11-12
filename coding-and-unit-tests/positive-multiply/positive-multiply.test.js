@@ -5,8 +5,16 @@
 import { positiveMultiply } from "./positive-multiply";
 
 describe("positiveMultiply", function () {
-  // it("should ...", function () {});
-  // multily two positive numbers
-  // multiply a negative and positive number
-  // multiply two negative numbers
+  it("should multiply two positive numbers", function () {
+    const result = positiveMultiply(2, 3);
+    expect(result).toEqual(6);
+  });
+  it("should multiply a negative and positive number", function () {
+    const result = positiveMultiply(-2, 3);
+    expect(result).toEqual(6);
+  });
+  it("should multiply two negative numbers", function () {
+    const result = positiveMultiply(-2, -3);
+    expect(result).toEqual(6);
+  });
 });
