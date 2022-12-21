@@ -15,7 +15,7 @@ describe("speedDatingList", function () {
     expect(result).toEqual([["Peter", "Paul"]]);
   });
 
-  it("should return every possible combination without dublicates", function () {
+  it("should return every possible combination without duplicates", function () {
     const result = speedDatingList(["Peter", "Paul", "Mary"]);
     expect(result).toEqual([
       ["Peter", "Paul"],
